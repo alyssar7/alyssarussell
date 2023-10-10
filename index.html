@@ -98,6 +98,7 @@
 
         /* Style the image */
         .profile-image {
+            position: center;
             max-width: 250px;
             height: auto;
         }
@@ -128,7 +129,7 @@
             font-family: "Copperplate", sans-serif;
             padding: 10px;
             font-size: 1.25rem;
-            transition: color 0.3s;
+            transition: color 0.1s;
         }
 
         /* Style the horizontal line */
@@ -148,10 +149,11 @@
                 text-align: center; /* Reset text alignment for smaller screens */
             } 
             nav {
+                position: center;
                 text-align: center; /* Center-align the links horizontally on smaller screens */
             }
             nav a {
-                display: block; /* Display links as block elements to stack them vertically */
+                display: inline-block; /* Display links as block elements to stack them vertically */
                 margin: 10px 0; /* Add vertical margin to separate links */
             }
         }
