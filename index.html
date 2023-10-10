@@ -78,14 +78,6 @@
                 flex: none; /* Reset the flex property to make them stack vertically */
                 width: 100%; /* Set width to 100% for full-width stacking */
             }
-
-            h1 {
-                flex: none;
-            }
-
-            nav {
-                flex: none;
-            }
         }
 
         /* Style the left column for the image and navigation links */
@@ -143,6 +135,7 @@
             border: 0.25px solid #ccc; /* 1px solid light gray border */
             margin: 40px 0; /* Adjust margin for spacing */
         }
+        
         /* Styles for larger screens (e.g., desktop) */
         .name-links-container {
             text-align: center; /* Center-align the content horizontally */
@@ -151,9 +144,8 @@
         /* Styles for smaller screens (e.g., phones) */
         @media (max-width: 768px) {
             .name-links-container {
-                text-align: left; /* Reset text alignment for smaller screens */
-            }
-    
+                text-align: center; /* Reset text alignment for smaller screens */
+            } 
             nav {
                 text-align: center; /* Center-align the links horizontally on smaller screens */
             }
