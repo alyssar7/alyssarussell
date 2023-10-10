@@ -29,10 +29,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Style the left column for the image */
+        /* Style the left column for the image and navigation links */
         .left-column {
             flex: 1;
             padding: 20px;
+            text-align: left;
         }
 
         /* Style the right column for the text */
@@ -53,18 +54,28 @@
         section {
             margin-bottom: 20px;
         }
+
+        /* Style navigation links */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="left-column">
             <!-- Place your image here -->
-            <img class="profile-image" src="headshot.jpg" alt="Alyssa R. Russell's Profile Picture">
-        </div>
-        <div class="right-column">
-            <header>
-                <h1>Alyssa R. Russell</h1>
-            </header>
+            <img class="profile-image" src="your-image.jpg" alt="Alyssa R. Russell's Profile Picture">
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -72,6 +83,11 @@
                     <li><a href="cv.pdf" target="_blank">CV</a></li>
                 </ul>
             </nav>
+        </div>
+        <div class="right-column">
+            <header>
+                <h1>Alyssa R. Russell</h1>
+            </header>
             <main>
                 <section>
                     <h2>About Me</h2>
