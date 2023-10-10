@@ -145,28 +145,20 @@
 
         /* Styles for smaller screens (e.g., phones) */
         @media (max-width: 768px) {
-            .name-links-container {
-                text-align: center; /* Reset text alignment for smaller screens */
-            } 
-            nav {
-                position: center;
-                text-align: center; /* Center-align the links horizontally on smaller screens */
-                top: 30px; /* Adjust the top position as needed */
-                right: 0px; /* Adjust the right position as needed */
-            }
-            nav a {
-                display: inline-block; /* Display links as block elements to stack them vertically */
-                margin: 0px 0; /* Add vertical margin to separate links */
-            }
+    .name-links-container {
+        text-align: center; /* Center-align all content on smaller screens */
+    }
+    
+    h1 {
+        margin: 0; /* Remove margin to make "Alyssa Russell" centered */
+    }
 
-            h1 {
-                position: center;
-                text-align: center;
-                top: 0px; /* Adjust the top position as needed */
-                left: 0px; /* Adjust the right position as needed */
-                margin-left: 0px;
-            }
-        }
+    nav a {
+        display: inline-block; /* Display links as block elements to stack them vertically */
+        text-align: center; /* Center-align the links below your name on mobile */
+        margin: 10px 0; /* Add vertical margin to separate links */
+    }
+}
 
         nav a:hover {
             color: #999; /* New color when hovering */
