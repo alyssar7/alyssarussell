@@ -76,6 +76,22 @@
             padding: 20px;
             background-color: #fff;
         }
+        .left-column {
+            flex: 1;
+            padding: 40px;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+        }
+        .right-column {
+            flex: 2;
+            padding: 20px;
+        }
+        .profile-image {
+            position: center;
+            max-width: 250px;
+            height: auto;
+        }
 
         @media (max-width: 768px) {
             .container {
