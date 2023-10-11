@@ -15,7 +15,7 @@
             margin-bottom: 15px; /* Add space below paragraphs */
             padding: 0px;
             font-family: "Calibri", sans-serif;
-            line-height: 1;
+            line-height: 1.15;
             text-align: justify;
         }
         p a {
