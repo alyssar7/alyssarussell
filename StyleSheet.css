@@ -74,11 +74,20 @@
             padding: 10px;
             transition: color 0.1s;
         }
-        .container {
+        .container-research {
             display: flex;
             justify-content: space-between;
             align-items: center;
             max-width: 800px;
+            margin: 20px auto 0;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
             margin: 20px auto 0;
             padding: 20px;
             background-color: #fff;
