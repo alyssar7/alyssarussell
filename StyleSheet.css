@@ -17,6 +17,7 @@
             font-family: "Calibri", sans-serif;
             line-height: 1.15;
             text-align: justify;
+            transition: color 0.1s;
         }
         p a {
             text-decoration: none !important;
@@ -52,6 +53,9 @@
             color: #999; /* New color when hovering */
         } 
         h1 a:hover {
+            color: #999; /* New color when hovering */
+        } 
+        p a:hover {
             color: #999; /* New color when hovering */
         } 
         .name-header h1 {
