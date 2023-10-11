@@ -94,7 +94,7 @@
         }
         .left-column {
             flex: 1;
-            padding: 40px;
+            padding: 20px;
             text-align: left;
             display: flex;
             justify-content: center;
