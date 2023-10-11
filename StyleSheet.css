@@ -4,8 +4,11 @@
             text-align: center;
             padding: 20px;
         }
+        section {
+            margin-bottom: 15px;
+        }
         p {
-            margin-bottom: 20px; /* Add space below paragraphs */
+            margin-bottom: 15px; /* Add space below paragraphs */
             padding: 0px;
             font-family: "Calibri", sans-serif;
             line-height: 2;
