@@ -126,13 +126,6 @@
                 
 
         @media (max-width: 768px) {
-
-
-
-            .name-header, .links-header {
-                width: 100%; /* Set width to 100% for full-width stacking */
-                text-align: center; /* Center-align all content horizontally */
-            }
             .name-header h1 {
             /* Remove absolute positioning styles */
             }
@@ -150,13 +143,22 @@
             .name-header h1 {
                 padding: 10px;
                 font-size: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
             .links-header nav {
                 padding: 10px;
                 font-size: 1.25rem;
                 top: 20px; /* Adjust the top position as needed */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }                
             .name-header, .links-header {
+                width: 100%; /* Set width to 100% for full-width stacking */
                 display: flex;
                 justify-content: center;
                 align-items: center;
