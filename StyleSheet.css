@@ -58,6 +58,9 @@
         p a:hover {
             color: #999; /* New color when hovering */
         } 
+
+        @media (min-width: 769px) {
+
         .name-header h1 {
             text-decoration: none !important;
             display: inline-block;
@@ -77,6 +80,7 @@
             font-family: "Copperplate", sans-serif;
             padding: 10px;
             transition: color 0.1s;
+        }
         }
         .container-research {
             display: flex;
