@@ -31,7 +31,7 @@
             text-decoration: none !important;
             color: #333;
             font-size: 1.5rem;
-            margin-left: 20px;
+            /* margin-left: 20px; */
             padding: 10px;
         }
         h2 {
@@ -46,7 +46,7 @@
             text-decoration: none !important;
             color: #333;
             font-size: 1.25rem;
-            margin-right: 20px;
+            /* margin-right: 20px; */
             padding: 10px;
         }
         nav a:hover {
