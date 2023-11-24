@@ -122,6 +122,12 @@
                 
 
         @media (max-width: 768px) {
+            .name-header h1 {
+            /* Remove absolute positioning styles */
+            }
+            .links-header nav {
+            /* Remove absolute positioning styles */
+            }
             .container {
                 flex-direction: column; /* Display text below image */
             }
