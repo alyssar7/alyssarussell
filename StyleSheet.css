@@ -151,7 +151,7 @@
             }
             .links-header nav {
                 font-size: 1.25rem;
-                top: 20px; /* Adjust the top position as needed */
+                top: 15px; /* Adjust the top position as needed */
                 display: flex;
                 justify-content: center;
                 align-items: center;
