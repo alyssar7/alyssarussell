@@ -135,8 +135,7 @@
             .container {
                 flex-direction: column; /* Display text below image */
             }
-            .left-column,
-            .right-column {
+            .left-column, .right-column {
                 flex: none; /* Reset the flex property to make them stack vertically */
                 width: 100%; /* Set width to 100% for full-width stacking */
             }
