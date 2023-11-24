@@ -122,6 +122,13 @@
                 
 
         @media (max-width: 768px) {
+
+
+
+            .name-header, .links-header {
+                width: 100%; /* Set width to 100% for full-width stacking */
+                text-align: center; /* Center-align all content horizontally */
+            }
             .name-header h1 {
             /* Remove absolute positioning styles */
             }
@@ -137,22 +144,16 @@
                 width: 100%; /* Set width to 100% for full-width stacking */
             }
             .name-header h1 {
-                display: flex;
-                text-decoration: none !important;
-                position: center;
-                text-align: center; /* Center-align all content horizontally */
-                font-family: "Copperplate", sans-serif;
                 padding: 10px;
                 font-size: 1.5rem;
             }
             .links-header nav {
-                display: flex;
-                text-decoration: none !important;
-                text-align: center;
-                position: center;  /*Enable absolute positioning */
-                font-family: "Copperplate", sans-serif;
                 padding: 10px;
                 font-size: 1.25rem;
-                transition: color 0.1s;
+            }                
+            .name-header, .links-header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
