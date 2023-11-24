@@ -150,6 +150,7 @@
             .links-header nav {
                 padding: 10px;
                 font-size: 1.25rem;
+                top: 20px; /* Adjust the top position as needed */
             }                
             .name-header, .links-header {
                 display: flex;
