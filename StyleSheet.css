@@ -104,7 +104,7 @@
             margin: 20px auto 0;
             padding: 10px; /* NEW CHANGE */
             background-color: #fff;
-            min-height: 50vh;
+            min-height: 75vh;
         }
         .left-column {
             flex: 1;
